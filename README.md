@@ -75,7 +75,7 @@ So that's why I decided to build a Vagrant LAMP Box. The box is prepackaged and 
 * Download and Install VirtualBox
 * Clone the Scotch Box GitHub Repository
 * Run Vagrant Up
-* Access Your Project at  [http://192.168.33.10/][14]
+* Access Your Project at  [http://192.168.35.13/][14]
 
 ## Basic Vagrant Commands
 
@@ -173,7 +173,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
  [11]: http://scotch.io/tutorials/php/getting-started-with-laravel-homestead
  [12]: https://www.vagrantup.com/downloads.html
  [13]: https://www.virtualbox.org/wiki/Downloads
- [14]: http://192.168.33.10/
+ [14]: http://192.168.35.13/
  [15]: https://github.com/smdahlen/vagrant-hostmanager
  [16]: http://box.scotch.io
  [17]: http://scotch.io/bar-talk/introducing-scotch-box-a-vagrant-lamp-stack-that-just-works
