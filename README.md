@@ -110,7 +110,7 @@ vagrant ssh
 | Database User  | root  |
 | Database Password  | root  |
 | Database Host  | localhost / 127.0.0.1  |
-| SSH Host  | 192.168.33.10  |
+| SSH Host  | 192.168.35.13  |
 | SSH User  | vagrant  |
 | SSH Password  | vagrant  |
 
@@ -137,12 +137,12 @@ vagrant box update
 If you're like me, you prefer to develop at a domain name versus an IP address. If you want to get rid of the some-what ugly IP address, just add a record like the following example to your laptop's host file.
 
 ```bash
-192.168.33.10 whatever-i-want.local
+192.168.35.13 whatever-i-want.local
 ```
 
 Or if you want "www" to work as well, do:
 
-192.168.33.10 whatever-i-want.local www.whatever-i-want.local
+192.168.35.13 whatever-i-want.local www.whatever-i-want.local
 
 Technically you could also a Vagrant Plugin like [Vagrant Hostmanager](15) to automatically update your host file when you run Vagrant Up. However, the purpose of Scotch Box is to have as little dependencies as possible so that it's always working when you run "vagrant up".
 
